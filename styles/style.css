@@ -1,0 +1,344 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+
+
+}
+
+.banner {
+    padding: 197px 97px 147px 240px;
+}
+
+.banner-picture {
+    padding-bottom: 0px;
+
+}
+
+
+.banner-content {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Our Featured Flowers section starts here */
+.our-featured-flowers-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.our-featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.our-featured-flowers-items {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+
+}
+
+#first-item-picture {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+
+
+}
+
+#second-item-picture {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+
+
+
+
+}
+
+#third-item-picture {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+
+
+}
+
+#first-item {
+    margin-right: 24px;
+    margin-left: 240px;
+}
+
+#second-item {
+    margin-right: 24px;
+    margin-left: 0px;
+}
+
+#third-item {
+    margin-left: 0px;
+    margin-right: 240px;
+}
+
+a {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.our-featured-flowers-anchor {
+    text-align: center;
+    padding-top: 32px;
+}
+
+/* Our Featured Flowers section ends here */
+
+
+/* feature section starts here */
+
+.feature {
+    display: flex;
+    padding: 86px 175px;
+
+}
+
+.feature-items {
+    padding: 30px;
+    margin: 32px;
+}
+
+#features {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px;
+}
+
+.feature-items {
+    text-align: center;
+}
+
+/* feature section ends here */
+
+/* discount section starts here */
+#discount-section {
+
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    height: 620px;
+
+}
+
+.discount-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.off-span {
+    color: #E55473;
+}
+
+.discount-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.discount-picture {
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+.discount-content {
+    padding: 200px;
+}
+
+/* discount section ends here */
+
+/* social media section starts here */
+
+.social-media-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.social-media-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+/* social media section ends here */
+
+/* showcase section starts here  */
+.slideshow {
+    display: flex;
+
+    padding: 48px 240px;
+}
+
+.slideshow-item {
+    margin: 0px 24px;
+}
+
+
+
+/* showcase section ends here  */
+
+/* deal section starts here */
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.deals {
+    display: block;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1640px;
+    height: 449px;
+    margin-left: 260px;
+    align-items: center;
+
+
+
+}
+
+.deals-title {
+    padding-top: 122px;
+    padding-left: 50px;
+}
+
+input {
+    padding: 22px 513px 22px 22px;
+    align-items: center;
+    margin-left: 287px;
+}
+
+/* deal section ends here */
+
+/* footer section starts here */
+
+footer {
+    background: #111010;
+    height: 449px;
+    width: 1922px;
+    
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 128px;
+    margin-left: 831px;
+    margin-right: 832px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.footer-copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* footer section ends here */
